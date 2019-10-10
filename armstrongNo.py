@@ -17,6 +17,11 @@ while duplicate > 0:
 	# taking only the interger value and assigning it
 	duplicate//=10
 
+def reverse(a): 
+  str = "" 
+  for i in a: 
+    str = i + str
+return str
 
 
 if number==sum1:
